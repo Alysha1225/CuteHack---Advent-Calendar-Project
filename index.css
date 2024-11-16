@@ -1,0 +1,41 @@
+body {
+	margin: 0;
+	
+}
+
+.container-circles {
+	display: flex;
+	justify-content: center;
+	gap: 33px;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Inter';
+	font-weight: 350;
+	font-size: 128px;
+}
+
+#star {
+	width: 203px;
+	display: block;
+	margin: 0 auto 20px;
+}
+
+.circle {
+	border-radius: 50%;
+	background-color: #AECDA3;
+	width: 135px;
+	height: 135px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.day-num {
+	font-family: 'Major Mono Display';
+	font-size: 50px;
+	font-weight: 50;
+	color: #709662;
+
+}
